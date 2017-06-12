@@ -25,7 +25,7 @@ html,body {
 #hillary{
     margin-left: -30px;
 }
-.block-title{
+.block-title-one{
     color: red;
     padding-top: 10px;
     font-size: 1.25em;
@@ -191,4 +191,113 @@ div.item > div > div > h4{
     text-align: center;
     color: black;
     font-weight: bold;
+}
+.carousel-control.left {
+
+    width: 0; 
+    height: 0; 
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-right: 60px solid red;
+    position: absolute;
+    top: 40px;
+}
+.carousel-control.right {
+
+    width: 0; 
+    height: 0; 
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid red;
+    position: absolute;
+    top: 40px;
+}
+.jumbotron{
+    min-height: 550px;
+    background-color: #282828;
+}
+#square 
+{ 
+    background: black;
+    width: 250px;
+    height: 250px; 
+    display: inline-block;
+    margin-left: 50px;
+    }
+.square-content{
+   
+    padding-top: 40%;
+    padding-left: 20%;   
+    color: white;
+    font-size: 2em;
+}
+div.col-md-3 > article > h5 > a{
+    color: #00B7FF;
+
+}
+.btn-blue{
+    background-color: #00B7FF;
+    color: black;
+}
+#footer{
+    background-color: black;
+    border-top: 5px solid red;
+    color: white;
+}
+.copyright > p:nth-child(2){
+    position: absolute;
+    top: 140px;
+    margin-left: 50px !IMPORTANT;
+}
+#footer > div> div > ul > li > a{
+    color: white !IMPORTANT;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+div.col-sm-9:nth-child(1) > h2:nth-child(1){
+    color: white !IMPORTANT;
+}
+.issue-review{
+    color: white;
+}
+#three > div:nth-child(3) > p{
+    color: grey;
+}
+#one > div:nth-child(3) > p{
+    color: grey;
+}
+#two > div:nth-child(3) > p{
+    color: grey;
+}
+#four > div:nth-child(3) > p{
+    color: grey;
+}
+#three > div:nth-child(3) > p:nth-child(1) > b:nth-child(2){
+    color: white;
+}
+#two > div:nth-child(3) > p:nth-child(1) > b:nth-child(2){
+    color: white;
+
+}
+#one > div:nth-child(3) > p:nth-child(1) > b:nth-child(2){
+    color: white;
+}
+#four > div:nth-child(3) > p:nth-child(1) > b:nth-child(2){
+    color: white;
+}
+div.btn{
+    width: 15%;
+    height: 10%;
+    margin-bottom: 10%;
+    white-space: normal;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.col-sm-9 > h2:nth-child(1){
+    color: white;
+
+}
+i {
+  margin-right: 10px;
 }
