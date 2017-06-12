@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sample Bootstrap Page</title>
+	<title>Newsweek - News, Analysis, Politics, Business, Technology, Lifestyle, Photos and Video</title>
 	<html lang="en">
-	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta author="Shruti Sharma Paliwal">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 	<meta name="viewport" content="width=device-width,initial-scale=1">
+
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="index.min.css">
 	<link rel="stylesheet" type="text/css" href="http://fonts.gstatic.com/s/sourcesanspro/v10/toadOcfmlt9b38dHJxOBGFkQc6VGVFSmCnC_l7QZG60.woff">
 	<link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"> 
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -19,12 +22,13 @@
 	
 
 </head>
+
 <body>
-<div class="container-fluid">
- <nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container-fluid"> <!--For full width container, spanning the entire width of viewport-->
+ <nav class="navbar navbar-inverse navbar-fixed-top"> <!--Top Navigation bar-->
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <!--For mobile view-->
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -54,9 +58,9 @@
       </ul>
     </div>
     </div>
-</nav> 
+</nav> <!--End of nav bar-->
 
-
+<!--Top Image and Side Links-->
 <section class="two-column container">
 <div class="row">
 	    <div class="col-md-9" id="hillary">
@@ -72,7 +76,6 @@
   				<li class="bullet"><a href="#"><b>One Day There Could Be a Blood Test for Autism</b></a></li><hr>
   				<li class="bullet"><a href="#"><b>Why a Bullfighter is Backing the New French President</b></a></li><hr>
   				<li class="bullet"><a href="#"><b>Huckabee Sanders Sends Out Confusing Tweet</b></a></li><hr>
-  				<!--<li class="bullet"><a href="#"><b>Trump Approval Dips (Again)</b></a></li><hr>-->
   				<li class="bullet"><a href="#"><b>Franken: AG Sessions Lied To Congress</b></a></li>
 			</ul> 
 			</div>
@@ -83,6 +86,7 @@
 </div>
 </section><br>
 
+<!--News Section-->
 <section class="one-column-container">
 <div class="row">
 	<div class="col-md-8" id="headline">
@@ -92,14 +96,15 @@
 	</div>
 </div>
 	
-</section><hr>
+</section><hr><!--End of news section, followed by horizontal line-->
 
 
 
-
+<!--News columns, 2 rows 4 columns each. Columns are of equal sizes and responsive, we have used module class here-->
+<!--ROW 1-->
 <section class="news">
 <div class="autowide">
-   <div class="module">
+   <div class="module"> <!--Column 1-->
       <article class="span6" style="padding-right:20px; border-right: 1px solid #ccc;">
       	<div class="img">
       	<img src="img/trump_us.jpg" class="img-responsive">
@@ -111,7 +116,7 @@
       	</p> 
       </article>
     </div>
-    <div class="module">
+    <div class="module"><!--Column 2-->
       <article class="span6" style="padding-right:20px; border-right: 1px solid #ccc;">
       	<div class="img">
       	<img src="img/trump_helicopter.jpg" class="img-responsive">
@@ -123,7 +128,7 @@
       	</p> 
       </article>    
     </div>
-    <div class="module">
+    <div class="module"><!--Column 3-->
       <article class="span6" style="padding-right:20px; border-right: 1px solid #ccc;">
       	<div class="img">
       	<img src="img/us_troops.jpg" class="img-responsive">
@@ -135,7 +140,7 @@
       	</p> 
       </article>    
     </div>
-    <div class="module">
+    <div class="module"><!--Column 4-->
       <article class="span6" style="padding-right:20px; border-right: 1px solid #ccc;">
       	<div class="img">
       	<img src="img/solar_energy.jpg" class="img-responsive">
@@ -149,11 +154,12 @@
     </div>
   </div>
 </div>
-</section><hr>
+</section><hr> <!--End of ROW 1-->
 
+<!--ROW 2-->
 <section class="news">
 <div class="autowide">
-   <div class="module">
+   <div class="module"> <!--Column 1-->
       <article class="span6" style="padding-right:20px; border-right: 1px solid #ccc;">
       	<div class="img">
       	<img src="img/barron-trump.jpg" class="img-responsive">
@@ -165,7 +171,7 @@
       	</p> 
       </article>
     </div>
-    <div class="module">
+    <div class="module"><!--Column 2-->
       <article class="span6" style="padding-right:20px; border-right: 1px solid #ccc;">
       	<div class="img">
       	<img src="img/award.jpeg" class="img-responsive">
@@ -177,7 +183,7 @@
       	</p> 
       </article>    
     </div>
-    <div class="module">
+    <div class="module"><!--Column 3-->
       <article class="span6" style="padding-right:20px; border-right: 1px solid #ccc;">
       	<div class="img">
       	<img src="img/CIA.jpg" class="img-responsive">
@@ -189,7 +195,7 @@
       	</p> 
       </article>    
     </div>
-    <div class="module">
+    <div class="module"><!--Column 4-->
       <article class="span6" style="padding-right:20px; border-right: 1px solid #ccc;">
       	<div class="img">
       	<img src="img/north-korea.jpg" class="img-responsive">
@@ -203,11 +209,12 @@
     </div>
   </div>
 </div>
-</section>
+</section> <!--End of ROW 2-->
 
 <section class="container-fluid">
 </section><hr> <!--Spacing purpose-->
 
+<!--Carousal Heading-->
 <section class="container-fluid">
       <div class="block-title">
         <span class="deco"></span>
@@ -215,6 +222,7 @@
       </div>
 </section>
 
+<!--Carosal-->
 <div id="myCarousel" class="carousel slide">
     <!-- Carousel items -->
     <div class="carousel-inner">
@@ -251,13 +259,7 @@
                 <div class="col-sm-2 col-md-4"><a href="#"><img src="img/robot.jpg" alt="robot-image" class="img-responsive"></a>
                 <h5>Tech &amp; Science</h5>
                 <h4>AI will cure America's Sick Health Policy</h4>
-                </div><!--
-                <div class="col-md-2 col-md-4"><a href="#"><img src="img/burger.jpg" alt="Image" class="img-responsive"></a>
                 </div>
-                <div class="col-sm-2 col-xs-6"><a href="#"><img src="img/patients-ear.jpg" alt="Image" class="img-responsive"></a>
-                </div>
-                <div class="col-sm-2 col-xs-6"><a href="#"><img src="img/astronaut.jpg" alt="Image" class="img-responsive"></a>
-                </div>-->
             </div>
             <!--/row-->
             </div>
@@ -268,7 +270,7 @@
     <a class="right carousel-control" href="#myCarousel" data-slide="next"></a>
 </div> <!--End of carousal--><br>
 
-
+<!--Jumbotron-->
 <div class="jumbotron">
 	<div class="row">
 	<div class="col-md-3">
@@ -283,8 +285,10 @@
 	<img src="img/diplomatic-danger.JPG" class="img-responsive" style="padding-right: 10px;">
 	</div>
 	</div>
-</div>
+</div> <!--End of Jumbotron-->
 
+
+<!--Page Footer-->
 <footer>
  
       <div class="container-fluid" id="footer">
@@ -315,7 +319,7 @@
               <li><a href="#">Archive</li>
             </ul>
           </div>
-          <div class="social hidden-sm">
+          <div class="social">
           <i class="fa fa-facebook-square" aria-hidden="true" style="font-size:4vw;color:white"></i>
           <i class="fa  fa-google" aria-hidden="true"  style="font-size:4vw;color:white"></i>
           <i class="fa  fa-instagram" aria-hidden="true"  style="font-size:4vw;color:white"></i>
@@ -373,5 +377,6 @@
 
 </div>
 </footer>
+
 </body>
 </html>
